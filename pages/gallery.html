@@ -1,1 +1,425 @@
-<!DOCTYPE html><html lang="en"> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta charset="UTF-8"> <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css"> <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css"> <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet"> <link rel="stylesheet" type="text/css" href="/vendors/css/animate.css"> <link rel="stylesheet" type="text/css" href="/resources/css/style.css"> <link rel="stylesheet" type="text/css" href="/resources/css/queries.css"> <link rel="stylesheet" type="text/css" href="/resources/css/gal.style.css"> <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400" rel="stylesheet"> <title>Aihan Shan 單愛涵</title> </head> <body> <section> <nav> <div class="row"> <a href="/index.html"><img src="/resources/img/logo.jpg" alt="Aihan logo" class="logo"></a> <ul id="mainNav" class="main-nav js--main-nav"> <li><a href="/pages/profile.html">About /</a></li><li><a href="/pages/gallery.html">Photo Gallery /</a></li><span class="mobile-mainNav"> <li><a href="#" onclick="openTab('A');change()">日與夜的旅人</a></li><li><a href="#" onclick="openTab('B');change()">似百獸歡騰</a></li><li><a href="#" onclick="openTab('C');change()">花是慵懶的愛</a></li><li><a href="#" onclick="openTab('D');change()">底片的歲月</a></li><li><a href="#" onclick="openTab('E');change()">祢創造光</a></li><li><a href="#" onclick="openTab('F');change()">淼淼復活了</a></li><li><a href="#" onclick="openTab('G');change()">山形花創作集</a></li><li><a href="#" onclick="closeTab();change()">觀看全部</a></li></span> <li><a href="https://aihanshan.wordpress.com" target="_blank">Blog /</a></li><li><a href="/pages/notebook.html">A Brief Note /</a></li><li><a href="https://www.instagram.com/lachrymatorybomb/" target="_blank"><i class="icon ion-logo-instagram"></i></a></li></ul> <a class="mobile-nav-icon js--nav-icon"><i id="navicon" class="icon ion-md-menu" onclick="change()"></i></a> </div></nav> </section> <section> <div class="row"> <div class="gallery-row"> <ul class="gallery-nav"> <li><a href="#" onclick="openTab('A')">#日與夜的旅人</a></li><li><a href="#" onclick="openTab('B')">#似百獸歡騰</a></li><li><a href="#" onclick="openTab('C')">#花是慵懶的愛</a></li><li><a href="#" onclick="openTab('D')">#底片的歲月</a></li><li><a href="#" onclick="openTab('E')">#祢創造光</a></li><li><a href="#" onclick="openTab('F')">#淼淼復活了</a></li><li><a href="#" onclick="openTab('G')">#山形花創作集</a></li></ul> </div><div id="gallery-main" class="gallery-row"> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/85.jpg" onclick="openModal();currentSlide(85)"> <img src="/resources/img/gallery/thumbnail/86.jpg" onclick="openModal();currentSlide(86)"> <img src="/resources/img/gallery/thumbnail/58.jpg" onclick="openModal();currentSlide(58)"> <img src="/resources/img/gallery/thumbnail/47.jpg" onclick="openModal();currentSlide(47)"> <img src="/resources/img/gallery/thumbnail/25.jpg" onclick="openModal();currentSlide(25)"> <img src="/resources/img/gallery/thumbnail/26.jpg" onclick="openModal();currentSlide(26)"> <img src="/resources/img/gallery/thumbnail/77.jpg" onclick="openModal();currentSlide(77)"> <img src="/resources/img/gallery/thumbnail/68.jpg" onclick="openModal();currentSlide(68)"> <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/14.jpg" onclick="openModal();currentSlide(14)"> <img src="/resources/img/gallery/thumbnail/13.jpg" onclick="openModal();currentSlide(13)"> <img src="/resources/img/gallery/thumbnail/17.jpg" onclick="openModal();currentSlide(17)"> <img src="/resources/img/gallery/thumbnail/19.jpg" onclick="openModal();currentSlide(19)"> </div><div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/11.jpg" onclick="openModal();currentSlide(11)"> <img src="/resources/img/gallery/thumbnail/75.jpg" onclick="openModal();currentSlide(75)"> <img src="/resources/img/gallery/thumbnail/80.jpg" onclick="openModal();currentSlide(80)"> <img src="/resources/img/gallery/thumbnail/29.jpg" onclick="openModal();currentSlide(29)"> </div><div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/65.jpg" onclick="openModal();currentSlide(65)"> <img src="/resources/img/gallery/thumbnail/66.jpg" onclick="openModal();currentSlide(66)"> <img src="/resources/img/gallery/thumbnail/36.jpg" onclick="openModal();currentSlide(36)"> <img src="/resources/img/gallery/thumbnail/78.jpg" onclick="openModal();currentSlide(78)"> </div><div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)"> <img src="/resources/img/gallery/thumbnail/42.jpg" onclick="openModal();currentSlide(42)"> <img src="/resources/img/gallery/thumbnail/71.jpg" onclick="openModal();currentSlide(71)"> <img src="/resources/img/gallery/thumbnail/16.jpg" onclick="openModal();currentSlide(16)"> </div><div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/69.jpg" onclick="openModal();currentSlide(69)"> <img src="/resources/img/gallery/thumbnail/59.jpg" onclick="openModal();currentSlide(59)"> <img src="/resources/img/gallery/thumbnail/10.jpg" onclick="openModal();currentSlide(10)"> <img src="/resources/img/gallery/thumbnail/9.jpg" onclick="openModal();currentSlide(9)"> <img src="/resources/img/gallery/thumbnail/22.jpg" onclick="openModal();currentSlide(22)"> <img src="/resources/img/gallery/thumbnail/62.jpg" onclick="openModal();currentSlide(62)"> </div></figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/21.jpg" onclick="openModal();currentSlide(21)"> <img src="/resources/img/gallery/thumbnail/49.jpg" onclick="openModal();currentSlide(49)"> <img src="/resources/img/gallery/thumbnail/53.jpg" onclick="openModal();currentSlide(53)"> <img src="/resources/img/gallery/thumbnail/51.jpg" onclick="openModal();currentSlide(51)"> <img src="/resources/img/gallery/thumbnail/37.jpg" onclick="openModal();currentSlide(37)"> <img src="/resources/img/gallery/thumbnail/54.jpg" onclick="openModal();currentSlide(54)"> <img src="/resources/img/gallery/thumbnail/5.jpg" onclick="openModal();currentSlide(5)"> <img src="/resources/img/gallery/thumbnail/61.jpg" onclick="openModal();currentSlide(61)"> <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/12.jpg" onclick="openModal();currentSlide(12)"> <img src="/resources/img/gallery/thumbnail/52.jpg" onclick="openModal();currentSlide(52)"> <img src="/resources/img/gallery/thumbnail/1.jpg" onclick="openModal();currentSlide(1)"> <img src="/resources/img/gallery/thumbnail/38.jpg" onclick="openModal();currentSlide(38)"> </div><div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/57.jpg" onclick="openModal();currentSlide(57)"> <img src="/resources/img/gallery/thumbnail/73.jpg" onclick="openModal();currentSlide(73)"> <img src="/resources/img/gallery/thumbnail/28.jpg" onclick="openModal();currentSlide(28)"> <img src="/resources/img/gallery/thumbnail/70.jpg" onclick="openModal();currentSlide(70)"> </div><div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/39.jpg" onclick="openModal();currentSlide(39)"> <img src="/resources/img/gallery/thumbnail/43.jpg" onclick="openModal();currentSlide(43)"> <img src="/resources/img/gallery/thumbnail/40.jpg" onclick="openModal();currentSlide(40)"> <img src="/resources/img/gallery/thumbnail/41.jpg" onclick="openModal();currentSlide(41)"> </div><div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/7.jpg" onclick="openModal();currentSlide(7)"> <img src="/resources/img/gallery/thumbnail/24.jpg" onclick="openModal();currentSlide(24)"> <img src="/resources/img/gallery/thumbnail/81.jpg" onclick="openModal();currentSlide(81)"> <img src="/resources/img/gallery/thumbnail/32.jpg" onclick="openModal();currentSlide(32)"> </div><div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/8.jpg" onclick="openModal();currentSlide(8)"> <img src="/resources/img/gallery/thumbnail/2.jpg" onclick="openModal();currentSlide(2)"> <img src="/resources/img/gallery/thumbnail/31.jpg" onclick="openModal();currentSlide(31)"> <img src="/resources/img/gallery/thumbnail/30.jpg" onclick="openModal();currentSlide(30)"> </div></figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/50.jpg" onclick="openModal();currentSlide(50)"> <img src="/resources/img/gallery/thumbnail/74.jpg" onclick="openModal();currentSlide(74)"> <img src="/resources/img/gallery/thumbnail/63.jpg" onclick="openModal();currentSlide(63)"> <img src="/resources/img/gallery/thumbnail/20.jpg" onclick="openModal();currentSlide(20)"> <img src="/resources/img/gallery/thumbnail/84.jpg" onclick="openModal();currentSlide(84)"> <img src="/resources/img/gallery/thumbnail/23.jpg" onclick="openModal();currentSlide(23)"> <img src="/resources/img/gallery/thumbnail/46.jpg" onclick="openModal();currentSlide(46)"> <img src="/resources/img/gallery/thumbnail/27.jpg" onclick="openModal();currentSlide(27)"> <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/48.jpg" onclick="openModal();currentSlide(48)"> <img src="/resources/img/gallery/thumbnail/18.jpg" onclick="openModal();currentSlide(18)"> <img src="/resources/img/gallery/thumbnail/15.jpg" onclick="openModal();currentSlide(15)"> <img src="/resources/img/gallery/thumbnail/60.jpg" onclick="openModal();currentSlide(60)"> </div><div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/64.jpg" onclick="openModal();currentSlide(64)"> <img src="/resources/img/gallery/thumbnail/55.jpg" onclick="openModal();currentSlide(55)"> <img src="/resources/img/gallery/thumbnail/33.jpg" onclick="openModal();currentSlide(33)"> <img src="/resources/img/gallery/thumbnail/35.jpg" onclick="openModal();currentSlide(35)"> </div><div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/79.jpg" onclick="openModal();currentSlide(79)"> <img src="/resources/img/gallery/thumbnail/44.jpg" onclick="openModal();currentSlide(44)"> <img src="/resources/img/gallery/thumbnail/72.jpg" onclick="openModal();currentSlide(72)"> <img src="/resources/img/gallery/thumbnail/67.jpg" onclick="openModal();currentSlide(67)"> </div><div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/76.jpg" onclick="openModal();currentSlide(76)"> <img src="/resources/img/gallery/thumbnail/34.jpg" onclick="openModal();currentSlide(34)"> <img src="/resources/img/gallery/thumbnail/6.jpg" onclick="openModal();currentSlide(6)"> <img src="/resources/img/gallery/thumbnail/4.jpg" onclick="openModal();currentSlide(4)"> </div><div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/56.jpg" onclick="openModal();currentSlide(56)"> <img src="/resources/img/gallery/thumbnail/3.jpg" onclick="openModal();currentSlide(3)"> <img src="/resources/img/gallery/thumbnail/82.jpg" onclick="openModal();currentSlide(82)"> <img src="/resources/img/gallery/thumbnail/83.jpg" onclick="openModal();currentSlide(83)"> </div></figure> </div></div><div id="partA" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/1.jpg" onclick="openModal();currentSlide(1)"> <img src="/resources/img/gallery/thumbnail/2.jpg" onclick="openModal();currentSlide(2)"> <img src="/resources/img/gallery/thumbnail/7.jpg" onclick="openModal();currentSlide(7)"> <img src="/resources/img/gallery/thumbnail/8.jpg" onclick="openModal();currentSlide(8)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/3.jpg" onclick="openModal();currentSlide(3)"> <img src="/resources/img/gallery/thumbnail/4.jpg" onclick="openModal();currentSlide(4)"> <img src="/resources/img/gallery/thumbnail/9.jpg" onclick="openModal();currentSlide(9)"> <img src="/resources/img/gallery/thumbnail/10.jpg" onclick="openModal();currentSlide(10)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/5.jpg" onclick="openModal();currentSlide(5)"> <img src="/resources/img/gallery/thumbnail/6.jpg" onclick="openModal();currentSlide(6)"> </figure> </div></div><div id="partB" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/11.jpg" onclick="openModal();currentSlide(11)"> <img src="/resources/img/gallery/thumbnail/12.jpg" onclick="openModal();currentSlide(12)"> <img src="/resources/img/gallery/thumbnail/17.jpg" onclick="openModal();currentSlide(17)"> <img src="/resources/img/gallery/thumbnail/18.jpg" onclick="openModal();currentSlide(18)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/13.jpg" onclick="openModal();currentSlide(13)"> <img src="/resources/img/gallery/thumbnail/14.jpg" onclick="openModal();currentSlide(14)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/15.jpg" onclick="openModal();currentSlide(15)"> <img src="/resources/img/gallery/thumbnail/16.jpg" onclick="openModal();currentSlide(16)"> </figure> </div></div><div id="partC" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/19.jpg" onclick="openModal();currentSlide(19)"> <img src="/resources/img/gallery/thumbnail/20.jpg" onclick="openModal();currentSlide(20)"> <img src="/resources/img/gallery/thumbnail/25.jpg" onclick="openModal();currentSlide(25)"> <img src="/resources/img/gallery/thumbnail/26.jpg" onclick="openModal();currentSlide(26)"> <img src="/resources/img/gallery/thumbnail/31.jpg" onclick="openModal();currentSlide(31)"> <img src="/resources/img/gallery/thumbnail/32.jpg" onclick="openModal();currentSlide(32)"> <img src="/resources/img/gallery/thumbnail/83.jpg" onclick="openModal();currentSlide(83)"> <img src="/resources/img/gallery/thumbnail/84.jpg" onclick="openModal();currentSlide(84)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/21.jpg" onclick="openModal();currentSlide(21)"> <img src="/resources/img/gallery/thumbnail/22.jpg" onclick="openModal();currentSlide(22)"> <img src="/resources/img/gallery/thumbnail/27.jpg" onclick="openModal();currentSlide(27)"> <img src="/resources/img/gallery/thumbnail/28.jpg" onclick="openModal();currentSlide(28)"> <img src="/resources/img/gallery/thumbnail/33.jpg" onclick="openModal();currentSlide(33)"> <img src="/resources/img/gallery/thumbnail/34.jpg" onclick="openModal();currentSlide(34)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/23.jpg" onclick="openModal();currentSlide(23)"> <img src="/resources/img/gallery/thumbnail/24.jpg" onclick="openModal();currentSlide(24)"> <img src="/resources/img/gallery/thumbnail/29.jpg" onclick="openModal();currentSlide(29)"> <img src="/resources/img/gallery/thumbnail/30.jpg" onclick="openModal();currentSlide(30)"> <img src="/resources/img/gallery/thumbnail/35.jpg" onclick="openModal();currentSlide(35)"> <img src="/resources/img/gallery/thumbnail/36.jpg" onclick="openModal();currentSlide(36)"> </figure> </div></div><div id="partD" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/37.jpg" onclick="openModal();currentSlide(37)"> <img src="/resources/img/gallery/thumbnail/38.jpg" onclick="openModal();currentSlide(39)"> <img src="/resources/img/gallery/thumbnail/43.jpg" onclick="openModal();currentSlide(43)"> <img src="/resources/img/gallery/thumbnail/44.jpg" onclick="openModal();currentSlide(44)"> <img class="RWDmiddle" src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/39.jpg" onclick="openModal();currentSlide(39)"> <img src="/resources/img/gallery/thumbnail/40.jpg" onclick="openModal();currentSlide(40)"> <img class="RWDhidden" src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/41.jpg" onclick="openModal();currentSlide(41)"> <img src="/resources/img/gallery/thumbnail/42.jpg" onclick="openModal();currentSlide(42)"> <img class="RWDdisplay" src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)"> </figure> </div></div><div id="partE" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/46.jpg" onclick="openModal();currentSlide(46)"> <img src="/resources/img/gallery/thumbnail/47.jpg" onclick="openModal();currentSlide(47)"> <img src="/resources/img/gallery/thumbnail/52.jpg" onclick="openModal();currentSlide(52)"> <img src="/resources/img/gallery/thumbnail/53.jpg" onclick="openModal();currentSlide(53)"> <img src="/resources/img/gallery/thumbnail/62.jpg" onclick="openModal();currentSlide(62)"> <img src="/resources/img/gallery/thumbnail/59.jpg" onclick="openModal();currentSlide(59)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/48.jpg" onclick="openModal();currentSlide(48)"> <img src="/resources/img/gallery/thumbnail/49.jpg" onclick="openModal();currentSlide(49)"> <img src="/resources/img/gallery/thumbnail/54.jpg" onclick="openModal();currentSlide(54)"> <img src="/resources/img/gallery/thumbnail/55.jpg" onclick="openModal();currentSlide(55)"> <img src="/resources/img/gallery/thumbnail/60.jpg" onclick="openModal();currentSlide(60)"> <img src="/resources/img/gallery/thumbnail/61.jpg" onclick="openModal();currentSlide(61)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/50.jpg" onclick="openModal();currentSlide(50)"> <img src="/resources/img/gallery/thumbnail/51.jpg" onclick="openModal();currentSlide(51)"> <img src="/resources/img/gallery/thumbnail/56.jpg" onclick="openModal();currentSlide(56)"> <img src="/resources/img/gallery/thumbnail/57.jpg" onclick="openModal();currentSlide(57)"> <img src="/resources/img/gallery/thumbnail/58.jpg" onclick="openModal();currentSlide(58)"> </figure> </div></div><div id="partF" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/63.jpg" onclick="openModal();currentSlide(63)"> <img src="/resources/img/gallery/thumbnail/64.jpg" onclick="openModal();currentSlide(64)"> <img src="/resources/img/gallery/thumbnail/69.jpg" onclick="openModal();currentSlide(69)"> <img src="/resources/img/gallery/thumbnail/70.jpg" onclick="openModal();currentSlide(70)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/65.jpg" onclick="openModal();currentSlide(65)"> <img src="/resources/img/gallery/thumbnail/66.jpg" onclick="openModal();currentSlide(66)"> <img src="/resources/img/gallery/thumbnail/71.jpg" onclick="openModal();currentSlide(71)"> <img src="/resources/img/gallery/thumbnail/72.jpg" onclick="openModal();currentSlide(72)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/67.jpg" onclick="openModal();currentSlide(67)"> <img src="/resources/img/gallery/thumbnail/68.jpg" onclick="openModal();currentSlide(68)"> <img src="/resources/img/gallery/thumbnail/85.jpg" onclick="openModal();currentSlide(85)"> <img src="/resources/img/gallery/thumbnail/86.jpg" onclick="openModal();currentSlide(86)"> </figure> </div></div><div id="partG" class="gallery-row gallery-tab"> <span class="closeT cursor" onclick="closeTab()">&times;</span> <div class="gallery-row"> <div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/73.jpg" onclick="openModal();currentSlide(73)"> <img src="/resources/img/gallery/thumbnail/74.jpg" onclick="openModal();currentSlide(74)"> <img src="/resources/img/gallery/thumbnail/79.jpg" onclick="openModal();currentSlide(79)"> <img src="/resources/img/gallery/thumbnail/80.jpg" onclick="openModal();currentSlide(80)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/75.jpg" onclick="openModal();currentSlide(75)"> <img src="/resources/img/gallery/thumbnail/76.jpg" onclick="openModal();currentSlide(76)"> <img src="/resources/img/gallery/thumbnail/81.jpg" onclick="openModal();currentSlide(81)"> <img src="/resources/img/gallery/thumbnail/82.jpg" onclick="openModal();currentSlide(82)"> </figure> </div><div class="col span-1-of-3"> <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/77.jpg" onclick="openModal();currentSlide(77)"> <img src="/resources/img/gallery/thumbnail/78.jpg" onclick="openModal();currentSlide(78)"> </figure> </div></div><div class="gallery-row"> <div class="gallery-textfield"> <h2>山形花</h2> <p> 「你們應當一無掛慮，凡事藉著禱告、祈求和感謝，將你們所要的告訴神。<span class="eraseLine"><br/></span>神所賜出人意外的平安，必在基督耶穌裏保守你們的心懷意念。<span id="script">」</span><span class="post-script addLine"><br/> - 腓立比書 4 : 6 - 7</span> </p><p> <span class="addLine"><br/></span>「患者」是我住院時最常聽到對自己的稱呼，我不認為自己患的是文明病，因為它們從小就跟著我了。<span class="addLine"><br/></span><br/>我試著把它們當作好朋友，將兩者合而為一，唯有如此我才能與之和平共處。<span class="addLine"><br/></span><br/>但這不是一件容易的事，最常見的身理副作用即是發抖，像在恐懼，雖然其實是藥物關係，初期調藥我仍難以適應。 </p><p> 因此，為了要克服它，我想起小時候受過的治療訓練，那就是用雙手拆解朵朵花，並且過程中要小心不碰傷她們，然後用鑷子小心翼翼地把她們排列。<span class="addLine"><br/></span><br/>過程很痛苦，焦慮讓我靜不下來，並且有強迫傾向，好幾次，她們就要被我毀了，這些作品是順利撐過痛苦期後所留下完整度較高的幾幅。 </p><p> 我的病從國中發作，當時輕生過一次。<span class="addLine"><br/><br/></span>後來景況好轉，一直撐到大二。<span class="addLine"><br/></span><br/>無奈後來舊症復發，我再度看輕自己的生命，吞下8 0 顆安眠藥，輕生第二次，而後住進了馬偕醫院的精神管制病房。<span class="addLine"><br/></span><br/>這些故事可能聽起來無理又荒唐，但我很清楚，這其中的掙扎卻是千言萬語也說不清的。 </p><p> 病況由低潮轉至平穩，直至最高峰，後又忽然驟降，這浮動的情緒曲線就像一座山，我又看它是一座美麗的山，也代表我2 2 年( 創作當時的年紀)的人生，因此命名為「山形花」。 </p></div><div class="gallery-exhibition"> <figure > <img src="/resources/img/gallery/G/exhibition.jpg"> </figure> <p>山形花系列作品2 0 1 5 年6 月公開展覽於華山創意園區</p></div></div></div></div></section> <section> <div class="modal" id="myModal"> <span class="close cursor" onclick="closeModal()">&times;</span> <div class="modal-content"> <div class="mySlides"> <img id="slideShow"> </div><a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next" onclick="plusSlides(1)">❯</a> <div class="row"> <div class="column"> <img class="demo demo_full cursor" onclick="addSlide(-3)" alt=""> </div><div class="column"> <img class="demo demo_full cursor" onclick="addSlide(-2)" alt=""> </div><div class="column"> <img class="demo cursor" onclick="addSlide(-1)" alt=""> </div><div class="column"> <img class="demo cursor" onclick="addSlide(0)" alt=""> </div><div class="column"> <img class="demo cursor" onclick="addSlide(1)" alt=""> </div><div class="column"> <img class="demo cursor" onclick="addSlide(2)" alt=""> </div><div class="column"> <img class="demo demo_full cursor" onclick="addSlide(3)" alt=""> </div><div class="column"> <img class="demo demo_full cursor" onclick="addSlide(4)" alt=""> </div></div></div></div></section> <footer> <div class="row"> <p> &copy;2018&nbsp;請尊重智慧財產權勿任意轉載違者依法必究 &nbsp;&nbsp;&nbsp;&nbsp; ALL RIGHTS RESERVED. </p></div></footer> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script> <script src="/vendors/js/jquery.waypoints.min.js"></script> <script src="/resources/js/galScript.js"></script> <script src="/resources/js/gal.script.js"></script> <script src="/resources/js/script.js"></script> </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css">
+    <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/gal.style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400" rel="stylesheet">
+    <title>Aihan Shan 單愛涵</title>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="row"> <a href="/index.html"><img src="/resources/img/logo.jpg" alt="Aihan logo"
+                        class="logo"></a>
+                <ul id="mainNav" class="main-nav js--main-nav">
+                    <li><a href="/pages/profile.html">About /</a></li>
+                    <li><a href="/pages/gallery.html">Photo Gallery /</a></li><span class="mobile-mainNav">
+                        <li><a href="#" onclick="openTab('A');change()">日與夜的旅人</a></li>
+                        <li><a href="#" onclick="openTab('B');change()">似百獸歡騰</a></li>
+                        <li><a href="#" onclick="openTab('C');change()">花是慵懶的愛</a></li>
+                        <li><a href="#" onclick="openTab('D');change()">底片的歲月</a></li>
+                        <li><a href="#" onclick="openTab('E');change()">祢創造光</a></li>
+                        <li><a href="#" onclick="openTab('F');change()">淼淼復活了</a></li>
+                        <li><a href="#" onclick="openTab('G');change()">山形花創作集</a></li>
+                        <li><a href="#" onclick="closeTab();change()">觀看全部</a></li>
+                    </span>
+                    <li><a href="https://aihanshan.wordpress.com" target="_blank">Blog /</a></li>
+                    <li><a href="/pages/notebook.html">A Brief Note /</a></li>
+                    <li><a href="https://www.instagram.com/lachrymatorybomb/" target="_blank"><i
+                                class="icon ion-logo-instagram"></i></a></li>
+                </ul> <a class="mobile-nav-icon js--nav-icon"><i id="navicon" class="icon ion-md-menu"
+                        onclick="change()"></i></a>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="row">
+            <div class="gallery-row">
+                <ul class="gallery-nav">
+                    <li><a href="#" onclick="openTab('A')">#日與夜的旅人</a></li>
+                    <li><a href="#" onclick="openTab('B')">#似百獸歡騰</a></li>
+                    <li><a href="#" onclick="openTab('C')">#花是慵懶的愛</a></li>
+                    <li><a href="#" onclick="openTab('D')">#底片的歲月</a></li>
+                    <li><a href="#" onclick="openTab('E')">#祢創造光</a></li>
+                    <li><a href="#" onclick="openTab('F')">#淼淼復活了</a></li>
+                    <li><a href="#" onclick="openTab('G')">#山形花創作集</a></li>
+                </ul>
+            </div>
+            <div id="gallery-main" class="gallery-row">
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/85.jpg"
+                            onclick="openModal();currentSlide(85)"> <img src="/resources/img/gallery/thumbnail/86.jpg"
+                            onclick="openModal();currentSlide(86)"> <img src="/resources/img/gallery/thumbnail/58.jpg"
+                            onclick="openModal();currentSlide(58)"> <img src="/resources/img/gallery/thumbnail/47.jpg"
+                            onclick="openModal();currentSlide(47)"> <img src="/resources/img/gallery/thumbnail/25.jpg"
+                            onclick="openModal();currentSlide(25)"> <img src="/resources/img/gallery/thumbnail/26.jpg"
+                            onclick="openModal();currentSlide(26)"> <img src="/resources/img/gallery/thumbnail/77.jpg"
+                            onclick="openModal();currentSlide(77)"> <img src="/resources/img/gallery/thumbnail/68.jpg"
+                            onclick="openModal();currentSlide(68)">
+                        <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/14.jpg"
+                                onclick="openModal();currentSlide(14)"> <img
+                                src="/resources/img/gallery/thumbnail/13.jpg" onclick="openModal();currentSlide(13)">
+                            <img src="/resources/img/gallery/thumbnail/17.jpg" onclick="openModal();currentSlide(17)">
+                            <img src="/resources/img/gallery/thumbnail/19.jpg" onclick="openModal();currentSlide(19)">
+                        </div>
+                        <div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/11.jpg"
+                                onclick="openModal();currentSlide(11)"> <img
+                                src="/resources/img/gallery/thumbnail/75.jpg" onclick="openModal();currentSlide(75)">
+                            <img src="/resources/img/gallery/thumbnail/80.jpg" onclick="openModal();currentSlide(80)">
+                            <img src="/resources/img/gallery/thumbnail/29.jpg" onclick="openModal();currentSlide(29)">
+                        </div>
+                        <div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/65.jpg"
+                                onclick="openModal();currentSlide(65)"> <img
+                                src="/resources/img/gallery/thumbnail/66.jpg" onclick="openModal();currentSlide(66)">
+                            <img src="/resources/img/gallery/thumbnail/36.jpg" onclick="openModal();currentSlide(36)">
+                            <img src="/resources/img/gallery/thumbnail/78.jpg" onclick="openModal();currentSlide(78)">
+                        </div>
+                        <div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/45.jpg"
+                                onclick="openModal();currentSlide(45)"> <img
+                                src="/resources/img/gallery/thumbnail/42.jpg" onclick="openModal();currentSlide(42)">
+                            <img src="/resources/img/gallery/thumbnail/71.jpg" onclick="openModal();currentSlide(71)">
+                            <img src="/resources/img/gallery/thumbnail/16.jpg" onclick="openModal();currentSlide(16)">
+                        </div>
+                        <div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/69.jpg"
+                                onclick="openModal();currentSlide(69)"> <img
+                                src="/resources/img/gallery/thumbnail/59.jpg" onclick="openModal();currentSlide(59)">
+                            <img src="/resources/img/gallery/thumbnail/10.jpg" onclick="openModal();currentSlide(10)">
+                            <img src="/resources/img/gallery/thumbnail/9.jpg" onclick="openModal();currentSlide(9)">
+                            <img src="/resources/img/gallery/thumbnail/22.jpg" onclick="openModal();currentSlide(22)">
+                            <img src="/resources/img/gallery/thumbnail/62.jpg" onclick="openModal();currentSlide(62)">
+                        </div>
+                    </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/21.jpg"
+                            onclick="openModal();currentSlide(21)"> <img src="/resources/img/gallery/thumbnail/49.jpg"
+                            onclick="openModal();currentSlide(49)"> <img src="/resources/img/gallery/thumbnail/53.jpg"
+                            onclick="openModal();currentSlide(53)"> <img src="/resources/img/gallery/thumbnail/51.jpg"
+                            onclick="openModal();currentSlide(51)"> <img src="/resources/img/gallery/thumbnail/37.jpg"
+                            onclick="openModal();currentSlide(37)"> <img src="/resources/img/gallery/thumbnail/54.jpg"
+                            onclick="openModal();currentSlide(54)"> <img src="/resources/img/gallery/thumbnail/5.jpg"
+                            onclick="openModal();currentSlide(5)"> <img src="/resources/img/gallery/thumbnail/61.jpg"
+                            onclick="openModal();currentSlide(61)">
+                        <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/12.jpg"
+                                onclick="openModal();currentSlide(12)"> <img
+                                src="/resources/img/gallery/thumbnail/52.jpg" onclick="openModal();currentSlide(52)">
+                            <img src="/resources/img/gallery/thumbnail/1.jpg" onclick="openModal();currentSlide(1)">
+                            <img src="/resources/img/gallery/thumbnail/38.jpg" onclick="openModal();currentSlide(38)">
+                        </div>
+                        <div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/57.jpg"
+                                onclick="openModal();currentSlide(57)"> <img
+                                src="/resources/img/gallery/thumbnail/73.jpg" onclick="openModal();currentSlide(73)">
+                            <img src="/resources/img/gallery/thumbnail/28.jpg" onclick="openModal();currentSlide(28)">
+                            <img src="/resources/img/gallery/thumbnail/70.jpg" onclick="openModal();currentSlide(70)">
+                        </div>
+                        <div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/39.jpg"
+                                onclick="openModal();currentSlide(39)"> <img
+                                src="/resources/img/gallery/thumbnail/43.jpg" onclick="openModal();currentSlide(43)">
+                            <img src="/resources/img/gallery/thumbnail/40.jpg" onclick="openModal();currentSlide(40)">
+                            <img src="/resources/img/gallery/thumbnail/41.jpg" onclick="openModal();currentSlide(41)">
+                        </div>
+                        <div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/7.jpg"
+                                onclick="openModal();currentSlide(7)"> <img
+                                src="/resources/img/gallery/thumbnail/24.jpg" onclick="openModal();currentSlide(24)">
+                            <img src="/resources/img/gallery/thumbnail/81.jpg" onclick="openModal();currentSlide(81)">
+                            <img src="/resources/img/gallery/thumbnail/32.jpg" onclick="openModal();currentSlide(32)">
+                        </div>
+                        <div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/8.jpg"
+                                onclick="openModal();currentSlide(8)"> <img src="/resources/img/gallery/thumbnail/2.jpg"
+                                onclick="openModal();currentSlide(2)"> <img
+                                src="/resources/img/gallery/thumbnail/31.jpg" onclick="openModal();currentSlide(31)">
+                            <img src="/resources/img/gallery/thumbnail/30.jpg" onclick="openModal();currentSlide(30)">
+                        </div>
+                    </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/50.jpg"
+                            onclick="openModal();currentSlide(50)"> <img src="/resources/img/gallery/thumbnail/74.jpg"
+                            onclick="openModal();currentSlide(74)"> <img src="/resources/img/gallery/thumbnail/63.jpg"
+                            onclick="openModal();currentSlide(63)"> <img src="/resources/img/gallery/thumbnail/20.jpg"
+                            onclick="openModal();currentSlide(20)"> <img src="/resources/img/gallery/thumbnail/84.jpg"
+                            onclick="openModal();currentSlide(84)"> <img src="/resources/img/gallery/thumbnail/23.jpg"
+                            onclick="openModal();currentSlide(23)"> <img src="/resources/img/gallery/thumbnail/46.jpg"
+                            onclick="openModal();currentSlide(46)"> <img src="/resources/img/gallery/thumbnail/27.jpg"
+                            onclick="openModal();currentSlide(27)">
+                        <div class="galpho-js-wp-1"> <img src="/resources/img/gallery/thumbnail/48.jpg"
+                                onclick="openModal();currentSlide(48)"> <img
+                                src="/resources/img/gallery/thumbnail/18.jpg" onclick="openModal();currentSlide(18)">
+                            <img src="/resources/img/gallery/thumbnail/15.jpg" onclick="openModal();currentSlide(15)">
+                            <img src="/resources/img/gallery/thumbnail/60.jpg" onclick="openModal();currentSlide(60)">
+                        </div>
+                        <div class="galpho-js-wp-2"> <img src="/resources/img/gallery/thumbnail/64.jpg"
+                                onclick="openModal();currentSlide(64)"> <img
+                                src="/resources/img/gallery/thumbnail/55.jpg" onclick="openModal();currentSlide(55)">
+                            <img src="/resources/img/gallery/thumbnail/33.jpg" onclick="openModal();currentSlide(33)">
+                            <img src="/resources/img/gallery/thumbnail/35.jpg" onclick="openModal();currentSlide(35)">
+                        </div>
+                        <div class="galpho-js-wp-3"> <img src="/resources/img/gallery/thumbnail/79.jpg"
+                                onclick="openModal();currentSlide(79)"> <img
+                                src="/resources/img/gallery/thumbnail/44.jpg" onclick="openModal();currentSlide(44)">
+                            <img src="/resources/img/gallery/thumbnail/72.jpg" onclick="openModal();currentSlide(72)">
+                            <img src="/resources/img/gallery/thumbnail/67.jpg" onclick="openModal();currentSlide(67)">
+                        </div>
+                        <div class="galpho-js-wp-4"> <img src="/resources/img/gallery/thumbnail/76.jpg"
+                                onclick="openModal();currentSlide(76)"> <img
+                                src="/resources/img/gallery/thumbnail/34.jpg" onclick="openModal();currentSlide(34)">
+                            <img src="/resources/img/gallery/thumbnail/6.jpg" onclick="openModal();currentSlide(6)">
+                            <img src="/resources/img/gallery/thumbnail/4.jpg" onclick="openModal();currentSlide(4)">
+                        </div>
+                        <div class="galpho-js-wp-5"> <img src="/resources/img/gallery/thumbnail/56.jpg"
+                                onclick="openModal();currentSlide(56)"> <img
+                                src="/resources/img/gallery/thumbnail/3.jpg" onclick="openModal();currentSlide(3)"> <img
+                                src="/resources/img/gallery/thumbnail/82.jpg" onclick="openModal();currentSlide(82)">
+                            <img src="/resources/img/gallery/thumbnail/83.jpg" onclick="openModal();currentSlide(83)">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div id="partA" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/1.jpg"
+                            onclick="openModal();currentSlide(1)"> <img src="/resources/img/gallery/thumbnail/2.jpg"
+                            onclick="openModal();currentSlide(2)"> <img src="/resources/img/gallery/thumbnail/7.jpg"
+                            onclick="openModal();currentSlide(7)"> <img src="/resources/img/gallery/thumbnail/8.jpg"
+                            onclick="openModal();currentSlide(8)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/3.jpg"
+                            onclick="openModal();currentSlide(3)"> <img src="/resources/img/gallery/thumbnail/4.jpg"
+                            onclick="openModal();currentSlide(4)"> <img src="/resources/img/gallery/thumbnail/9.jpg"
+                            onclick="openModal();currentSlide(9)"> <img src="/resources/img/gallery/thumbnail/10.jpg"
+                            onclick="openModal();currentSlide(10)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/5.jpg"
+                            onclick="openModal();currentSlide(5)"> <img src="/resources/img/gallery/thumbnail/6.jpg"
+                            onclick="openModal();currentSlide(6)"> </figure>
+                </div>
+            </div>
+            <div id="partB" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/11.jpg"
+                            onclick="openModal();currentSlide(11)"> <img src="/resources/img/gallery/thumbnail/12.jpg"
+                            onclick="openModal();currentSlide(12)"> <img src="/resources/img/gallery/thumbnail/17.jpg"
+                            onclick="openModal();currentSlide(17)"> <img src="/resources/img/gallery/thumbnail/18.jpg"
+                            onclick="openModal();currentSlide(18)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/13.jpg"
+                            onclick="openModal();currentSlide(13)"> <img src="/resources/img/gallery/thumbnail/14.jpg"
+                            onclick="openModal();currentSlide(14)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/15.jpg"
+                            onclick="openModal();currentSlide(15)"> <img src="/resources/img/gallery/thumbnail/16.jpg"
+                            onclick="openModal();currentSlide(16)"> </figure>
+                </div>
+            </div>
+            <div id="partC" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/19.jpg"
+                            onclick="openModal();currentSlide(19)"> <img src="/resources/img/gallery/thumbnail/20.jpg"
+                            onclick="openModal();currentSlide(20)"> <img src="/resources/img/gallery/thumbnail/25.jpg"
+                            onclick="openModal();currentSlide(25)"> <img src="/resources/img/gallery/thumbnail/26.jpg"
+                            onclick="openModal();currentSlide(26)"> <img src="/resources/img/gallery/thumbnail/31.jpg"
+                            onclick="openModal();currentSlide(31)"> <img src="/resources/img/gallery/thumbnail/32.jpg"
+                            onclick="openModal();currentSlide(32)"> <img src="/resources/img/gallery/thumbnail/83.jpg"
+                            onclick="openModal();currentSlide(83)"> <img src="/resources/img/gallery/thumbnail/84.jpg"
+                            onclick="openModal();currentSlide(84)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/21.jpg"
+                            onclick="openModal();currentSlide(21)"> <img src="/resources/img/gallery/thumbnail/22.jpg"
+                            onclick="openModal();currentSlide(22)"> <img src="/resources/img/gallery/thumbnail/27.jpg"
+                            onclick="openModal();currentSlide(27)"> <img src="/resources/img/gallery/thumbnail/28.jpg"
+                            onclick="openModal();currentSlide(28)"> <img src="/resources/img/gallery/thumbnail/33.jpg"
+                            onclick="openModal();currentSlide(33)"> <img src="/resources/img/gallery/thumbnail/34.jpg"
+                            onclick="openModal();currentSlide(34)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/23.jpg"
+                            onclick="openModal();currentSlide(23)"> <img src="/resources/img/gallery/thumbnail/24.jpg"
+                            onclick="openModal();currentSlide(24)"> <img src="/resources/img/gallery/thumbnail/29.jpg"
+                            onclick="openModal();currentSlide(29)"> <img src="/resources/img/gallery/thumbnail/30.jpg"
+                            onclick="openModal();currentSlide(30)"> <img src="/resources/img/gallery/thumbnail/35.jpg"
+                            onclick="openModal();currentSlide(35)"> <img src="/resources/img/gallery/thumbnail/36.jpg"
+                            onclick="openModal();currentSlide(36)"> </figure>
+                </div>
+            </div>
+            <div id="partD" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/37.jpg"
+                            onclick="openModal();currentSlide(37)"> <img src="/resources/img/gallery/thumbnail/38.jpg"
+                            onclick="openModal();currentSlide(39)"> <img src="/resources/img/gallery/thumbnail/43.jpg"
+                            onclick="openModal();currentSlide(43)"> <img src="/resources/img/gallery/thumbnail/44.jpg"
+                            onclick="openModal();currentSlide(44)"> <img class="RWDmiddle"
+                            src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)">
+                    </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/39.jpg"
+                            onclick="openModal();currentSlide(39)"> <img src="/resources/img/gallery/thumbnail/40.jpg"
+                            onclick="openModal();currentSlide(40)"> <img class="RWDhidden"
+                            src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)">
+                    </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/41.jpg"
+                            onclick="openModal();currentSlide(41)"> <img src="/resources/img/gallery/thumbnail/42.jpg"
+                            onclick="openModal();currentSlide(42)"> <img class="RWDdisplay"
+                            src="/resources/img/gallery/thumbnail/45.jpg" onclick="openModal();currentSlide(45)">
+                    </figure>
+                </div>
+            </div>
+            <div id="partE" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/46.jpg"
+                            onclick="openModal();currentSlide(46)"> <img src="/resources/img/gallery/thumbnail/47.jpg"
+                            onclick="openModal();currentSlide(47)"> <img src="/resources/img/gallery/thumbnail/52.jpg"
+                            onclick="openModal();currentSlide(52)"> <img src="/resources/img/gallery/thumbnail/53.jpg"
+                            onclick="openModal();currentSlide(53)"> <img src="/resources/img/gallery/thumbnail/62.jpg"
+                            onclick="openModal();currentSlide(62)"> <img src="/resources/img/gallery/thumbnail/59.jpg"
+                            onclick="openModal();currentSlide(59)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/48.jpg"
+                            onclick="openModal();currentSlide(48)"> <img src="/resources/img/gallery/thumbnail/49.jpg"
+                            onclick="openModal();currentSlide(49)"> <img src="/resources/img/gallery/thumbnail/54.jpg"
+                            onclick="openModal();currentSlide(54)"> <img src="/resources/img/gallery/thumbnail/55.jpg"
+                            onclick="openModal();currentSlide(55)"> <img src="/resources/img/gallery/thumbnail/60.jpg"
+                            onclick="openModal();currentSlide(60)"> <img src="/resources/img/gallery/thumbnail/61.jpg"
+                            onclick="openModal();currentSlide(61)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/50.jpg"
+                            onclick="openModal();currentSlide(50)"> <img src="/resources/img/gallery/thumbnail/51.jpg"
+                            onclick="openModal();currentSlide(51)"> <img src="/resources/img/gallery/thumbnail/56.jpg"
+                            onclick="openModal();currentSlide(56)"> <img src="/resources/img/gallery/thumbnail/57.jpg"
+                            onclick="openModal();currentSlide(57)"> <img src="/resources/img/gallery/thumbnail/58.jpg"
+                            onclick="openModal();currentSlide(58)"> </figure>
+                </div>
+            </div>
+            <div id="partF" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/63.jpg"
+                            onclick="openModal();currentSlide(63)"> <img src="/resources/img/gallery/thumbnail/64.jpg"
+                            onclick="openModal();currentSlide(64)"> <img src="/resources/img/gallery/thumbnail/69.jpg"
+                            onclick="openModal();currentSlide(69)"> <img src="/resources/img/gallery/thumbnail/70.jpg"
+                            onclick="openModal();currentSlide(70)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/65.jpg"
+                            onclick="openModal();currentSlide(65)"> <img src="/resources/img/gallery/thumbnail/66.jpg"
+                            onclick="openModal();currentSlide(66)"> <img src="/resources/img/gallery/thumbnail/71.jpg"
+                            onclick="openModal();currentSlide(71)"> <img src="/resources/img/gallery/thumbnail/72.jpg"
+                            onclick="openModal();currentSlide(72)"> </figure>
+                </div>
+                <div class="col span-1-of-3">
+                    <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/67.jpg"
+                            onclick="openModal();currentSlide(67)"> <img src="/resources/img/gallery/thumbnail/68.jpg"
+                            onclick="openModal();currentSlide(68)"> <img src="/resources/img/gallery/thumbnail/85.jpg"
+                            onclick="openModal();currentSlide(85)"> <img src="/resources/img/gallery/thumbnail/86.jpg"
+                            onclick="openModal();currentSlide(86)"> </figure>
+                </div>
+            </div>
+            <div id="partG" class="gallery-row gallery-tab"> <span class="closeT cursor"
+                    onclick="closeTab()">&times;</span>
+                <div class="gallery-row">
+                    <div class="col span-1-of-3">
+                        <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/73.jpg"
+                                onclick="openModal();currentSlide(73)"> <img
+                                src="/resources/img/gallery/thumbnail/74.jpg" onclick="openModal();currentSlide(74)">
+                            <img src="/resources/img/gallery/thumbnail/79.jpg" onclick="openModal();currentSlide(79)">
+                            <img src="/resources/img/gallery/thumbnail/80.jpg" onclick="openModal();currentSlide(80)">
+                        </figure>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/75.jpg"
+                                onclick="openModal();currentSlide(75)"> <img
+                                src="/resources/img/gallery/thumbnail/76.jpg" onclick="openModal();currentSlide(76)">
+                            <img src="/resources/img/gallery/thumbnail/81.jpg" onclick="openModal();currentSlide(81)">
+                            <img src="/resources/img/gallery/thumbnail/82.jpg" onclick="openModal();currentSlide(82)">
+                        </figure>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <figure class="gallery-photo"> <img src="/resources/img/gallery/thumbnail/77.jpg"
+                                onclick="openModal();currentSlide(77)"> <img
+                                src="/resources/img/gallery/thumbnail/78.jpg" onclick="openModal();currentSlide(78)">
+                        </figure>
+                    </div>
+                </div>
+                <div class="gallery-row">
+                    <div class="gallery-textfield">
+                        <h2>山形花</h2>
+                        <p> 「你們應當一無掛慮，凡事藉著禱告、祈求和感謝，將你們所要的告訴神。<span
+                                class="eraseLine"><br /></span>神所賜出人意外的平安，必在基督耶穌裏保守你們的心懷意念。<span
+                                id="script">」</span><span class="post-script addLine"><br /> - 腓立比書 4 : 6 - 7</span>
+                        </p>
+                        <p> <span class="addLine"><br /></span>「患者」是我住院時最常聽到對自己的稱呼，我不認為自己患的是文明病，因為它們從小就跟著我了。<span
+                                class="addLine"><br /></span><br />我試著把它們當作好朋友，將兩者合而為一，唯有如此我才能與之和平共處。<span
+                                class="addLine"><br /></span><br />但這不是一件容易的事，最常見的身理副作用即是發抖，像在恐懼，雖然其實是藥物關係，初期調藥我仍難以適應。
+                        </p>
+                        <p> 因此，為了要克服它，我想起小時候受過的治療訓練，那就是用雙手拆解朵朵花，並且過程中要小心不碰傷她們，然後用鑷子小心翼翼地把她們排列。<span
+                                class="addLine"><br /></span><br />過程很痛苦，焦慮讓我靜不下來，並且有強迫傾向，好幾次，她們就要被我毀了，這些作品是順利撐過痛苦期後所留下完整度較高的幾幅。
+                        </p>
+                        <p> 我的病從國中發作，當時輕生過一次。<span class="addLine"><br /><br /></span>後來景況好轉，一直撐到大二。<span
+                                class="addLine"><br /></span><br />無奈後來舊症復發，我再度看輕自己的生命，吞下8 0
+                            顆安眠藥，輕生第二次，而後住進了馬偕醫院的精神管制病房。<span
+                                class="addLine"><br /></span><br />這些故事可能聽起來無理又荒唐，但我很清楚，這其中的掙扎卻是千言萬語也說不清的。 </p>
+                        <p> 病況由低潮轉至平穩，直至最高峰，後又忽然驟降，這浮動的情緒曲線就像一座山，我又看它是一座美麗的山，也代表我2 2 年( 創作當時的年紀)的人生，因此命名為「山形花」。 </p>
+                    </div>
+                    <div class="gallery-exhibition">
+                        <figure> <img src="/resources/img/gallery/G/exhibition.jpg"> </figure>
+                        <p>山形花系列作品2 0 1 5 年6 月公開展覽於華山創意園區</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="modal" id="myModal"> <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides"> <img id="slideShow"> </div><a class="prev" onclick="plusSlides(-1)">❮</a> <a
+                    class="next" onclick="plusSlides(1)">❯</a>
+                <div class="row">
+                    <div class="column"> <img class="demo demo_full cursor" onclick="addSlide(-3)" alt=""> </div>
+                    <div class="column"> <img class="demo demo_full cursor" onclick="addSlide(-2)" alt=""> </div>
+                    <div class="column"> <img class="demo cursor" onclick="addSlide(-1)" alt=""> </div>
+                    <div class="column"> <img class="demo cursor" onclick="addSlide(0)" alt=""> </div>
+                    <div class="column"> <img class="demo cursor" onclick="addSlide(1)" alt=""> </div>
+                    <div class="column"> <img class="demo cursor" onclick="addSlide(2)" alt=""> </div>
+                    <div class="column"> <img class="demo demo_full cursor" onclick="addSlide(3)" alt=""> </div>
+                    <div class="column"> <img class="demo demo_full cursor" onclick="addSlide(4)" alt=""> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <p> &copy;2019&nbsp;請尊重智慧財產權勿任意轉載違者依法必究 &nbsp;&nbsp;&nbsp;&nbsp; ALL RIGHTS RESERVED. </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="/resources/js/galScript.js"></script>
+    <script src="/resources/js/gal.script.js"></script>
+    <script src="/resources/js/script.js"></script>
+</body>
