@@ -30,12 +30,19 @@ function showNote(n) {
   }
 }
 
+function closeModal() { 
+  modal.style.display = "none";
+  navi.style.display = "block";
+}
 
 /* Get the <span> element that closes the modal */
 var span = document.getElementsByClassName("close")[0];
 
 /* When the user clicks on <span> (x), close the modal*/
-span.onclick = function() { 
-  modal.style.display = "none";
-  navi.style.display = "block";
-}
+span.onclick = closeModal;
+
+document.addEventListener('keydown', function(e){
+  if (e.keyCode === 27) {
+    closeModal();
+  }
+}, false);
