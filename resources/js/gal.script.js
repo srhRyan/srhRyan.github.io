@@ -64,7 +64,7 @@ function showSlides(n) {
 
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
-    dots[i].src = "/resources/img/gallery/thumbnail/" + ((i + slideIndex - 4 + 86) % 86 + 1) + ".jpg";
+    dots[i].src = "/resources/img/gallery/thumbnail/" + ((i + slideIndex - 4 + 90) % 90 + 1) + ".jpg";
   }
 
   dots[slideIndex - 1].className += " active";
@@ -97,7 +97,8 @@ function getPhotoSRC(slideIndex) {
 };*/
 
 document.querySelector(".modal").addEventListener('keydown', function(e){
-  if(e.keyCode === 27) {
+  console.log(`key input is ${e.keyCode}`);
+  if (e.keyCode === 27) {
     closeModal();
   }
 }, false);
