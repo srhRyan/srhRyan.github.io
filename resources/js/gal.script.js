@@ -71,7 +71,7 @@ function showSlides(n) {
 }
 
 function getPhotoSRC(slideIndex) {
-  const photosrc = "/resources/img/gallery/";
+  let photosrc = "/resources/img/gallery/";
 
   if (slideIndex > 0 && slideIndex <= 10) { photosrc = `${photosrc}A/${slideIndex}.jpg`; }
   else if (slideIndex > 10 && slideIndex <= 18) { photosrc = `${photosrc}B/${slideIndex}.jpg`; }
