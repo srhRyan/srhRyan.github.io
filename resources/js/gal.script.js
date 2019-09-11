@@ -96,8 +96,7 @@ function getPhotoSRC(slideIndex) {
 	}, 5000);
 };*/
 
-document.querySelector(".modal").addEventListener('keydown', function(e){
-  console.log(`key input is ${e.keyCode}`);
+document.addEventListener('keydown', function(e){
   if (e.keyCode === 27) {
     closeModal();
   }
