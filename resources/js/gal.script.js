@@ -73,11 +73,11 @@ function showSlides(n) {
 function getPhotoSRC(slideIndex) {
   let photosrc = "/resources/img/gallery/";
 
-  if (slideIndex > 0 && slideIndex <= 10) { photosrc = `${photosrc}A/${slideIndex}.jpg`; }
+  if (slideIndex > 0 && slideIndex <= 10 || slideIndex === 62 || slideIndex === 87 || slideIndex === 88) { photosrc = `${photosrc}A/${slideIndex}.jpg`; }
   else if (slideIndex > 10 && slideIndex <= 18) { photosrc = `${photosrc}B/${slideIndex}.jpg`; }
   else if (slideIndex > 18 && slideIndex <= 36 || slideIndex === 83 || slideIndex === 84 || slideIndex === 90) { photosrc = `${photosrc}C/${slideIndex}.jpg`; }
   else if (slideIndex > 36 && slideIndex <= 45) { photosrc = `${photosrc}D/${slideIndex}.jpg`; }
-  else if (slideIndex > 45 && slideIndex <= 62 || slideIndex === 87 || slideIndex === 88) { photosrc = `${photosrc}E/${slideIndex}.jpg`; }
+  else if (slideIndex > 45 && slideIndex <= 61) { photosrc = `${photosrc}E/${slideIndex}.jpg`; }
   else if (slideIndex > 62 && slideIndex <= 72 || slideIndex === 85 || slideIndex === 86 || slideIndex === 89) { photosrc = `${photosrc}F/${slideIndex}.jpg`; }
   else if (slideIndex > 72 && slideIndex <= 82) { photosrc = `${photosrc}G/${slideIndex}.jpg`; }
   else { photosrc = `${photosrc}thumbnail/${slideIndex}.jpg`; }
@@ -96,7 +96,7 @@ function getPhotoSRC(slideIndex) {
 	}, 5000);
 };*/
 
-document.querySelector("modal").addEventListener('keydown', function(e){
+document.querySelector(".modal").addEventListener('keydown', function(e){
   if(e.keyCode === 27) {
     closeModal();
   }
