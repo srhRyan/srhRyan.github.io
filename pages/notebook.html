@@ -1,1 +1,79 @@
-<!DOCTYPE html><html lang="en"> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta charset="UTF-8"> <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css"> <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css"> <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet"> <link rel="stylesheet" type="text/css" href="/vendors/css/animate.css"> <link rel="stylesheet" type="text/css" href="../resources/css/style.css"> <link rel="stylesheet" type="text/css" href="/resources/css/queries.css"> <link rel="stylesheet" type="text/css" href="/resources/css/nb.style.css"> <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400" rel="stylesheet"> <title>Aihan Shan 單愛涵</title> </head> <body> <section> <nav> <div class="row"> <a href="/index.html"><img src="/resources/img/logo.jpg" alt="Aihan logo" class="logo"></a> <ul id="mainNav" class="main-nav js--main-nav"> <li><a href="/pages/profile.html">About /</a></li><li><a href="/pages/gallery.html">Photo Gallery /</a></li><li><a href="https://aihanshan.wordpress.com" target="_blank">Blog /</a></li><li><a href="/pages/notebook.html">A Brief Note /</a></li><li><a href="https://www.instagram.com/lachrymatorybomb/" target="_blank"><i class="icon ion-logo-instagram"></i></a></li></ul> <a class="mobile-nav-icon js--nav-icon"><i id="navicon" class="icon ion-md-menu" onclick="change()"></i></a> </div></nav> </section> <section class="section-notes"> <ul class="notes-showcase clearfix"> <li> <img class="note-photo" id="np1" src="../resources/img/notes/001.jpg" onclick="currentNote(1)" alt="001 note"> </li><li> <img class="note-photo" id="np2" src="/resources/img/notes/002.jpg" onclick="currentNote(2)" alt="002 note"> </li><li> <img class="note-photo" id="np3" src="/resources/img/notes/003.jpg" onclick="currentNote(3)" alt="003 note"> </li><li> <img class="note-photo" id="np4" src="/resources/img/notes/004.jpg" onclick="currentNote(4)" alt="004 note"> </li><li> <img class="note-photo" id="np5" src="/resources/img/notes/005.jpg" onclick="currentNote(5)" alt="005 note"> </li><li> <img class="note-photo" id="np6" src="/resources/img/notes/006.jpg" onclick="currentNote(6)" alt="006 note"> </li><li> <img class="note-photo" id="np7" src="/resources/img/notes/007.jpg" onclick="currentNote(7)" alt="007 note"> </li><li> <img class="note-photo" id="np8" src="/resources/img/notes/008.jpg" onclick="currentNote(8)" alt="008 note"> </li><li> <img class="note-photo" id="np9" src="/resources/img/notes/009.jpg" onclick="currentNote(9)" alt="009 note"> </li><li> <img class="note-photo" id="np10" src="/resources/img/notes/010.jpg" onclick="currentNote(10)" alt="010 note"> </li><li> <img class="note-photo" id="np11" src="/resources/img/notes/011.jpg" onclick="currentNote(11)" alt="011 note"> </li><li> <img class="note-photo" id="np12" src="/resources/img/notes/012.jpg" onclick="currentNote(12)" alt="012 note"> </li><li> <img class="note-photo" id="np13" src="/resources/img/notes/013.jpg" onclick="currentNote(13)" alt="013 note"> </li><li> <img class="note-photo" id="np14" src="/resources/img/notes/014.jpg" onclick="currentNote(14)" alt="014 note"> </li><li> <img class="note-photo" id="np15" src="/resources/img/notes/015.jpg" onclick="currentNote(15)" alt="015 note"> </li></ul> <div id="myModal" class="modal"> <span class="close">&times;</span> <a class="prev" onclick="plusNote(-1)">❮</a> <a class="next" onclick="plusNote(1)">❯</a> <img class="modal-content" id="imgshow" onclick="plusNote(1)"> </div></section> <footer> <div class="row"> <p> &copy;2019&nbsp;請尊重智慧財產權勿任意轉載違者依法必究 &nbsp;&nbsp;&nbsp;&nbsp; ALL RIGHTS RESERVED. </p></div></footer> <script src="/resources/js/nbScript.js"></script> <script src="/resources/js/script.js"></script> </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css">
+    <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/nb.style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400" rel="stylesheet">
+    <title>Aihan Shan 單愛涵</title>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="row"> <a href="/index.html"><img src="/resources/img/logo.jpg" alt="Aihan logo"
+                        class="logo"></a>
+                <ul id="mainNav" class="main-nav js--main-nav">
+                    <li><a href="/pages/profile.html">About /</a></li>
+                    <li><a href="/pages/gallery.html">Photo Gallery /</a></li>
+                    <li><a href="https://aihanshan.wordpress.com" target="_blank">Blog /</a></li>
+                    <li><a href="/pages/notebook.html">A Brief Note /</a></li>
+                    <li><a href="https://www.instagram.com/lachrymatorybomb/" target="_blank"><i
+                                class="icon ion-logo-instagram"></i></a></li>
+                </ul> <a class="mobile-nav-icon js--nav-icon"><i id="navicon" class="icon ion-md-menu"
+                        onclick="change()"></i></a>
+            </div>
+        </nav>
+    </section>
+    <section class="section-notes">
+        <ul class="notes-showcase clearfix">
+            <li> <img class="note-photo" id="np1" src="../resources/img/notes/001.jpg" onclick="currentNote(1)"
+                    alt="001 note"> </li>
+            <li> <img class="note-photo" id="np2" src="/resources/img/notes/002.jpg" onclick="currentNote(2)"
+                    alt="002 note"> </li>
+            <li> <img class="note-photo" id="np3" src="/resources/img/notes/003.jpg" onclick="currentNote(3)"
+                    alt="003 note"> </li>
+            <li> <img class="note-photo" id="np4" src="/resources/img/notes/004.jpg" onclick="currentNote(4)"
+                    alt="004 note"> </li>
+            <li> <img class="note-photo" id="np5" src="/resources/img/notes/005.jpg" onclick="currentNote(5)"
+                    alt="005 note"> </li>
+            <li> <img class="note-photo" id="np6" src="/resources/img/notes/006.jpg" onclick="currentNote(6)"
+                    alt="006 note"> </li>
+            <li> <img class="note-photo" id="np7" src="/resources/img/notes/007.jpg" onclick="currentNote(7)"
+                    alt="007 note"> </li>
+            <li> <img class="note-photo" id="np8" src="/resources/img/notes/008.jpg" onclick="currentNote(8)"
+                    alt="008 note"> </li>
+            <li> <img class="note-photo" id="np9" src="/resources/img/notes/009.jpg" onclick="currentNote(9)"
+                    alt="009 note"> </li>
+            <li> <img class="note-photo" id="np10" src="/resources/img/notes/010.jpg" onclick="currentNote(10)"
+                    alt="010 note"> </li>
+            <li> <img class="note-photo" id="np11" src="/resources/img/notes/011.jpg" onclick="currentNote(11)"
+                    alt="011 note"> </li>
+            <li> <img class="note-photo" id="np12" src="/resources/img/notes/012.jpg" onclick="currentNote(12)"
+                    alt="012 note"> </li>
+            <li> <img class="note-photo" id="np13" src="/resources/img/notes/013.jpg" onclick="currentNote(13)"
+                    alt="013 note"> </li>
+            <li> <img class="note-photo" id="np14" src="/resources/img/notes/014.jpg" onclick="currentNote(14)"
+                    alt="014 note"> </li>
+            <li> <img class="note-photo" id="np15" src="/resources/img/notes/015.jpg" onclick="currentNote(15)"
+                    alt="015 note"> </li>
+        </ul>
+        <div id="myModal" class="modal"> <span class="close">&times;</span> <a class="prev" onclick="plusNote(-1)">❮</a>
+            <a class="next" onclick="plusNote(1)">❯</a> <img class="modal-content" id="imgshow" onclick="plusNote(1)">
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <p> &copy;2020&nbsp;請尊重智慧財產權勿任意轉載違者依法必究 &nbsp;&nbsp;&nbsp;&nbsp; ALL RIGHTS RESERVED. </p>
+        </div>
+    </footer>
+    <script src="/resources/js/nbScript.js"></script>
+    <script src="/resources/js/script.js"></script>
+</body>
